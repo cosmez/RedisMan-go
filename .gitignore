@@ -1,0 +1,76 @@
+# =============================================================================
+# Project-specific
+# =============================================================================
+/redisman
+
+# =============================================================================
+# Go
+# =============================================================================
+
+# Compiled binaries and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries (built with go test -c)
+*.test
+
+# Coverage output
+*.out
+coverage.html
+
+# Build output directory
+bin/
+dist/
+
+# Go workspace (single-module project; not committed)
+go.work
+go.work.sum
+
+# Dependency vendor directory (using Go modules, not vendor)
+vendor/
+
+# =============================================================================
+# OS
+# =============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# =============================================================================
+# Editors & IDEs
+# =============================================================================
+
+# VS Code
+.vscode/
+
+# JetBrains (GoLand)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+.netrwhist
+
+# =============================================================================
+# Environment / secrets
+# =============================================================================
+.env
+.env.*
+*.pem
+*.key
